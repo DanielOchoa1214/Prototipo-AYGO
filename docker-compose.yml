@@ -1,0 +1,5 @@
+services:
+  MyEC2Instance:
+    image: amazonlinux:2
+    container_name: MyEC2Instance
+    command: sleep infinity
