@@ -1,5 +1,6 @@
 services:
-  MyEC2Instance:
-    image: amazonlinux:2
-    container_name: MyEC2Instance
-    command: sleep infinity
+  prototype:
+    image: dano1214/aygo-prototype:latest
+    container_name: prototype
+    ports:
+      - "8081:8080"
