@@ -87,6 +87,10 @@ curl --location 'localhost:8081/api/v1/aws' \
 }'
 ```
 
+### Deployment
+
+Since the project is containerized using a single Docker container, for the deployment I decided to manually create the EC2 instance and install Docker and Docker Compose on it. Then, I cloned the repository and ran the `docker-compose up -d` command to start the application.
+
 ## Version
 
 1.0
